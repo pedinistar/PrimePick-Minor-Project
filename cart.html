@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrimePick</title>
+    <link rel="shortcut icon" href="assets/primePick.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="header">
+        <a href="#"><img src="assets/primePick.png" class="logo" alt="logo"/></a>
+        <div>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a  class="active" href="cart.html"><img src="assets/shopping-cart.svg" alt=""/></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="page-header" class="cart-header">
+        <h2>Let's Talk</h2>
+        <p>LEAVE MESSAGE. We love to hear from you!</p>
+      </section>
+
+      <section id="cart" class="section-p1">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Remove</td>
+              <td>Images</td>
+              <td>Product</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Subtotal</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+              <td><img src="assets/products/f1.jpg" alt=""></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>1999/-</td>
+              <td><input type="number" value="1"></td>
+              <td>1999/-</td>
+            </tr>
+            <tr>
+              <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+              <td><img src="assets/products/f2.jpg" alt=""></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>1999/-</td>
+              <td><input type="number" value="1"></td>
+              <td>1999/-</td>
+            </tr>
+            <tr>
+              <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+              <td><img src="assets/products/f3.jpg" alt=""></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>1999/-</td>
+              <td><input type="number" value="1"></td>
+              <td>1999/-</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="cart-add" class="section-p1">
+        <div id="coupon">
+          <h3>Apply Coupon</h3>
+          <div>
+            <input type="text" placeholder="Enter your coupon" name="" id="">
+            <button class="normal">Apply</button>
+          </div>
+        </div>
+        <div id="subtotal">
+          <h3>Cart Total</h3>
+          <table>
+            <tr>
+              <td>Cart Subtotal</td>
+              <td>1999/-</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td>1999/-</td>
+            </tr>
+          </table>
+          <button class="normal">Proceed to checkout</button>
+        </div>
+      </section>
+
+      <footer class="section-p1">
+        <div class="column-container">
+          <div class="col">
+            <img class="logo" src="assets/primePick.png" alt="" />
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>---------------</p>
+            <p><strong>Phone:</strong>---------------</p>
+            <p><strong>Hours:</strong>---------------</p>
+            <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                <img src="assets/icons/apple.svg" alt="" />
+                <img src="assets/icons/fb.svg" alt="" />
+                <img src="assets/icons/google.svg" alt="" />
+                <img src="assets/icons/twitter.svg" alt="" />
+                <img src="assets/icons/insta.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+          </div>
+
+          <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+          </div>
+
+          <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+              <img src="assets/pay/app.jpg" alt="" />
+              <img src="assets/pay/play.jpg" alt="" />
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="assets/pay/pay.png" alt="" />
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&#169; 2023 Copyright</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
