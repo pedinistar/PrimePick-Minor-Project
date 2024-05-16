@@ -1,4 +1,4 @@
 
 # PrimePick-Minor-Project
 
-https://pedinistar.github.io/PrimePick-Minor-Project/index.html
+<b>Live Link:</b> https://pedinistar.github.io/PrimePick-Minor-Project/index.html
